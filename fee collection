@@ -1,0 +1,23 @@
+a=str(input("Enter the student type\n"))
+if(a=="MSDS"):
+    tf=float(input("Enter tuition fee\n"))
+    bf=float(input("Enter bus fee\n"))
+    b=tf+bf
+    print(f"The fees to be paid by the student is Rs.{b}0")
+elif(a=="MSH"):
+    tf=float(input("Enter tuition fee\n"))
+    hf=float(input("Enter hostel fee\n"))
+    c=tf+hf
+    print(f"The fees to be paid by the student is Rs.{c}0")
+elif(a=="MGSDS"):
+    tf=float(input("Enter tuition fee\n"))
+    bf=float(input("Enter bus fee\n"))
+    d=(1.5*tf)+bf
+    print(f"The fees to be paid by the student is Rs.{d}0")
+elif(a=="MGSH"):
+    tf=float(input("Enter tuition fee\n"))
+    hf=float(input("Enter hostel fee\n"))
+    e=(1.5*tf)+hf
+    print(f"The fees to be paid by the student is Rs.{e}0")
+else:
+    print("not a student")
