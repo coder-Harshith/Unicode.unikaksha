@@ -1,0 +1,11 @@
+a=int(input("Enter x\n"))
+b=int(input("Enter y\n"))
+c=int(input("Enter z\n"))
+if a<b and a<c:
+ print("L1 has the minimal seating capacity")
+elif b<a and b<c:
+ print("L2 has the minimal seating capacity")
+elif c<a and c<b:
+ print("L3 has the minimal seating capacity")
+else:
+    print("invalid input")
