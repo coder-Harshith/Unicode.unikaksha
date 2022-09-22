@@ -1,0 +1,10 @@
+a=int(input("Enter Year of Birth\n"))
+y=int(input("Enter Current year\n"))
+if y>a:
+    b=y-a
+    print(f"Your age is {b}")
+elif y<a:
+    c=(y+100)-a
+    print(f"Your age is {c}")
+else:
+    print("ఓ సీతా వదలనిక తోడౌతా రోజంతా వెలుగులిడు నీడౌతా దారై నడిపేనే చేతి గీత చేయి విడువక సాగుతా తీరం తెలిపెనే నుదుటి రాత నుదుట తిలకమై వాలుతా కనులలో మెరుపులా తారాడే కలేనౌతా")
