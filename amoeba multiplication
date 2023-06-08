@@ -1,0 +1,8 @@
+n=int(input("Enter the number of Months"))
+n1,n2=0,1
+for i in range(3,n+1):
+    n3=n1+n2
+    n1=n2
+    n2=n3
+    print("Enter the number of months:\n"
+         "The amoeba size is",n2)
