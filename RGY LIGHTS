@@ -1,0 +1,8 @@
+s=float(input())
+d=float(input())
+t=float(input())
+T=d/s
+if(t*t*T<t):
+    print("yes")
+else:
+    print("no")
