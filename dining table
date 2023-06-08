@@ -1,0 +1,11 @@
+a=str(input())
+b=int(input())
+if a==("front") or a==("rear") and (b==1 or b==2):
+    if(a=="front" and b==1):
+        print("Left Handed")
+    elif(a=="rear" and b==2):
+        print("Left Handed")
+    else:
+        print("Right Handed")
+else:
+    print("Invalid Input")
